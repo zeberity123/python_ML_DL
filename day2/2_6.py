@@ -19,6 +19,7 @@ print(sum(b))
 print('-'*30)
 
 c = b.reshape(3, 4)
+
 print(c)
 print(c+1)
 print(c+c)
