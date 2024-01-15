@@ -23,8 +23,14 @@ def p3():
     x = np.arange(0.1, 2, 0.1)
 
     plt.plot(x, np.log(x))
+    plt.subplot(2,2,4)
     plt.plot(x, -np.log(x))
+
+    plt.figure(figsize=(10,5))
+    plt.subplot(333)
     plt.plot(-x, np.log(x))
+
+    plt.subplot(224)
     plt.plot(-x, -np.log(x))
     plt.show()
 
